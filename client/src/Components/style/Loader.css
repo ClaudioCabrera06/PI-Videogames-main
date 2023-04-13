@@ -1,0 +1,42 @@
+  .loadercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .contentloader {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .cargando {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #333;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 3s linear infinite; 
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .sabias {
+    margin-top: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+  } 

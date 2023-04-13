@@ -1,0 +1,14 @@
+// Funcion que define el modelo.
+const { DataTypes } = require("sequelize");
+module.exports = (sequelize) => {
+  sequelize.define("genre", {
+    id: {
+      type: DataTypes.UUID,
+      primaryKey: true,
+      defaultValue: DataTypes.UUIDV4,
+    },
+    name: {
+      type: DataTypes.STRING,
+    },
+  });
+};

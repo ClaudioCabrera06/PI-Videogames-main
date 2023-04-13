@@ -1,0 +1,50 @@
+.footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(61,48,48,0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(61,48,48,0.25);
+	height: 1.5rem;
+	position:fixed;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+.yo{
+	padding-left: 10rem;
+	padding-right: 10rem;
+	color: white;
+}
+
+.boton {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 19px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+ }
+ 

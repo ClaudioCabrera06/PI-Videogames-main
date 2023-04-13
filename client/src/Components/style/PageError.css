@@ -1,0 +1,48 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-code {
+  font-size: 72px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.error-content {
+  text-align: left;
+  width: 50%;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #c4bbbb;
+  background-color: #484646;
+  margin-bottom: 20px;
+}
+
+.error-text {
+  font-size: 18px;
+  color: #eae3e3;
+  background-color: #484646;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
